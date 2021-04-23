@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "http://www.genome.jp/kegg/xml/KGML_v0.7.1_.dtd">
+<!-- Creation date: Feb 18, 2011 16:43:57 +0900 (GMT+09:00) -->
+<pathway name="path:vpo03022" org="vpo" number="03022"
+         title="Basal transcription factors"
+         image="http://www.genome.jp/kegg/pathway/vpo/vpo03022.png"
+         link="http://www.genome.jp/kegg-bin/show_pathway?vpo03022">
+    <entry id="1" name="path:vpo03022" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo03022">
+        <graphics name="TITLE:Basal transcription factors" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="221" y="58" width="361" height="25"/>
+    </entry>
+    <entry id="2" name="vpo:Kpol_1032p36" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1032p36">
+        <graphics name="Kpol_1032p36" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="67" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="3" name="vpo:Kpol_513p21" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_513p21">
+        <graphics name="Kpol_513p21" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="113" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="4" name="vpo:Kpol_2000p71" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_2000p71">
+        <graphics name="Kpol_2000p71" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="159" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="5" name="ko:K03129" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K03129">
+        <graphics name="K03129" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="205" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="6" name="vpo:Kpol_1024p42 vpo:Kpol_1048p59" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1024p42+vpo:Kpol_1048p59">
+        <graphics name="Kpol_1024p42..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="251" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="7" name="vpo:Kpol_1002p96" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1002p96">
+        <graphics name="Kpol_1002p96" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="297" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="8" name="vpo:Kpol_1043p55" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1043p55">
+        <graphics name="Kpol_1043p55" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="343" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="9" name="vpo:Kpol_1010p15 vpo:Kpol_530p33" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1010p15+vpo:Kpol_530p33">
+        <graphics name="Kpol_1010p15..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="389" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="10" name="vpo:Kpol_397p10" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_397p10">
+        <graphics name="Kpol_397p10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="435" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="11" name="vpo:Kpol_1004p35" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1004p35">
+        <graphics name="Kpol_1004p35" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="481" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="12" name="vpo:Kpol_543p63" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_543p63">
+        <graphics name="Kpol_543p63" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="527" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="13" name="vpo:Kpol_455p9" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_455p9">
+        <graphics name="Kpol_455p9" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="573" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="14" name="vpo:Kpol_538p11" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_538p11">
+        <graphics name="Kpol_538p11" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="67" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="15" name="vpo:Kpol_1048p25" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1048p25">
+        <graphics name="Kpol_1048p25" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="113" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="16" name="vpo:Kpol_1064p7" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1064p7">
+        <graphics name="Kpol_1064p7" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="159" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="17" name="ko:K03121" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K03121">
+        <graphics name="K03121" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="205" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="18" name="vpo:Kpol_478p11" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_478p11">
+        <graphics name="Kpol_478p11" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="67" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="19" name="vpo:Kpol_1062p42" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1062p42">
+        <graphics name="Kpol_1062p42" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="113" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="20" name="vpo:Kpol_1072p40 vpo:Kpol_530p10 vpo:Kpol_530p9" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1072p40+vpo:Kpol_530p10+vpo:Kpol_530p9">
+        <graphics name="Kpol_1072p40..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="159" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="21" name="vpo:Kpol_348p6" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_348p6">
+        <graphics name="Kpol_348p6" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="205" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="22" name="vpo:Kpol_1060p51" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1060p51">
+        <graphics name="Kpol_1060p51" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="251" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="23" name="vpo:Kpol_1005p10" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1005p10">
+        <graphics name="Kpol_1005p10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="297" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="24" name="vpo:Kpol_1004p2" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1004p2">
+        <graphics name="Kpol_1004p2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="343" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="25" name="vpo:Kpol_1065p29" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_1065p29">
+        <graphics name="Kpol_1065p29" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="389" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="26" name="vpo:Kpol_479p16" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?vpo:Kpol_479p16">
+        <graphics name="Kpol_479p16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="435" y="339" width="46" height="17"/>
+    </entry>
+</pathway>

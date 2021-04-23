@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "http://www.genome.jp/kegg/xml/KGML_v0.7.1_.dtd">
+<!-- Creation date: Feb 18, 2011 16:43:57 +0900 (GMT+09:00) -->
+<pathway name="path:xtr03022" org="xtr" number="03022"
+         title="Basal transcription factors"
+         image="http://www.genome.jp/kegg/pathway/xtr/xtr03022.png"
+         link="http://www.genome.jp/kegg-bin/show_pathway?xtr03022">
+    <entry id="1" name="path:xtr03022" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr03022">
+        <graphics name="TITLE:Basal transcription factors" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="221" y="58" width="361" height="25"/>
+    </entry>
+    <entry id="2" name="xtr:448323 xtr:549093 xtr:550063" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:448323+xtr:549093+xtr:550063">
+        <graphics name="tbpl1, MGC89144, TLF, stud, tlp, trf2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="67" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="3" name="xtr:100496377" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:100496377">
+        <graphics name="taf1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="113" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="4" name="xtr:100145691" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:100145691">
+        <graphics name="taf2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="159" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="5" name="xtr:779738" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:779738">
+        <graphics name="taf4, MGC145595, taf2c, taf2c1, taf4a, tafii130, tafii135" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="205" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="6" name="xtr:100216139 xtr:448469" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:100216139+xtr:448469">
+        <graphics name="taf5, taf2d, tafii100..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="251" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="7" name="xtr:100486266 xtr:100493467" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:100486266+xtr:100493467">
+        <graphics name="100486266..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="297" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="8" name="xtr:448449" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:448449">
+        <graphics name="taf7, MGC89504, TAFII55, taf2f, taf7l" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="343" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="9" name="xtr:100271762 xtr:549921" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:100271762+xtr:549921">
+        <graphics name="taf9b, dn-7, dn7, e(y)1, taf9l, tafii31l, tfiid-31..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="389" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="10" name="xtr:550033" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:550033">
+        <graphics name="taf10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="435" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="11" name="xtr:100151705" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:100151705">
+        <graphics name="taf11, pro2134, taf2i, tafii28" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="481" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="12" name="xtr:100145432 xtr:548922" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:100145432+xtr:548922">
+        <graphics name="100145432..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="527" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="13" name="xtr:548820" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:548820">
+        <graphics name="taf13" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="573" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="14" name="xtr:549031" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:549031">
+        <graphics name="gtf2b, tf2b, tfiib" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="67" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="15" name="xtr:100493990 xtr:549662 xtr:734072" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:100493990+xtr:549662+xtr:734072">
+        <graphics name="ston1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="113" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="16" name="xtr:100489620 xtr:448686" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:100489620+xtr:448686">
+        <graphics name="100489620..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="159" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="17" name="xtr:100488034 xtr:549986" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:100488034+xtr:549986">
+        <graphics name="100488034..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="205" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="18" name="xtr:100124929" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:100124929">
+        <graphics name="gtf2f1, rap74" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="67" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="19" name="xtr:394584" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:394584">
+        <graphics name="gtf2f2.1, MGC75790, RAP30, gtf2f2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="113" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="20" name="ko:K03140" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K03140">
+        <graphics name="K03140" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="159" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="21" name="xtr:448491" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:448491">
+        <graphics name="gtf2e1, MGC79483, tf2e1, tfiie-a, tfiiealpha" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="205" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="22" name="xtr:549309" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:549309">
+        <graphics name="gtf2e2, TFIIE-beta, tf2e2, tfiie-b" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="251" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="23" name="xtr:448768" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:448768">
+        <graphics name="gtf2h1, MGC89581, btf2, tfiih" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="297" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="24" name="xtr:496493" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:496493">
+        <graphics name="gtf2h2, btf2, btf2p44, t-btf2p44, tfiih" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="343" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="25" name="xtr:100145792" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:100145792">
+        <graphics name="gtf2h3, btf2, tfb4, tfiih" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="389" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="26" name="xtr:548562" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xtr:548562">
+        <graphics name="gtf2h4.2, MGC97849, gtf2h4" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="435" y="339" width="46" height="17"/>
+    </entry>
+</pathway>

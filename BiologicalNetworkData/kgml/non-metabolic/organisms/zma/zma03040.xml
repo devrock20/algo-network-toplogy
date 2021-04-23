@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "http://www.genome.jp/kegg/xml/KGML_v0.7.1_.dtd">
+<!-- Creation date: Dec 6, 2010 16:41:29 +0900 (JST) -->
+<pathway name="path:zma03040" org="zma" number="03040"
+         title="Spliceosome"
+         image="http://www.genome.jp/kegg/pathway/zma/zma03040.png"
+         link="http://www.genome.jp/kegg-bin/show_pathway?zma03040">
+    <entry id="1" name="path:zma03040" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma03040">
+        <graphics name="TITLE:Spliceosome" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="105" y="58" width="129" height="25"/>
+    </entry>
+    <entry id="2" name="zma:100381523" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100381523">
+        <graphics name="100381523" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="80" y="266" width="46" height="17"/>
+    </entry>
+    <entry id="3" name="zma:100273717 zma:100283032 zma:100384654" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100273717+zma:100283032+zma:100384654">
+        <graphics name="gpm624..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="80" y="286" width="46" height="17"/>
+    </entry>
+    <entry id="4" name="zma:542179" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:542179">
+        <graphics name="70_K, ZMU170K_1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="159" width="46" height="17"/>
+    </entry>
+    <entry id="5" name="ko:K11091" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K11091">
+        <graphics name="K11091" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="698" y="176" width="46" height="17"/>
+    </entry>
+    <entry id="6" name="zma:100192596" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100192596">
+        <graphics name="100192596" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="193" width="46" height="17"/>
+    </entry>
+    <entry id="7" name="ko:K12813 ko:K12814" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12813+K12814">
+        <graphics name="K12813..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="433" y="530" width="46" height="17"/>
+    </entry>
+    <entry id="8" name="ko:K12815" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12815">
+        <graphics name="K12815" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="549" y="387" width="46" height="17"/>
+    </entry>
+    <entry id="9" name="zma:100285823" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100285823">
+        <graphics name="100285823" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="549" y="407" width="46" height="17"/>
+    </entry>
+    <entry id="10" name="ko:K12821" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12821">
+        <graphics name="K12821" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="698" y="231" width="46" height="17"/>
+    </entry>
+    <entry id="11" name="ko:K12822" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12822">
+        <graphics name="K12822" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="698" y="251" width="46" height="17"/>
+    </entry>
+    <entry id="12" name="ko:K12818" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12818">
+        <graphics name="K12818" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="540" y="269" width="46" height="17"/>
+    </entry>
+    <entry id="13" name="zma:100282531" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100282531">
+        <graphics name="100282531" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="469" y="164" width="46" height="17"/>
+    </entry>
+    <entry id="14" name="zma:100193568 zma:100272538 zma:100280773 zma:100282045 zma:100282140 zma:100282336 zma:100284147 zma:100284316 zma:100284787 zma:100285502 zma:100285722" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100193568+zma:100272538+zma:100280773+zma:100282045+zma:100282140+zma:100282336+zma:100284147+zma:100284316+zma:100284787+zma:100285502+zma:100285722">
+        <graphics name="IDP147..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="142" width="46" height="17"/>
+    </entry>
+    <entry id="15" name="zma:100274281 zma:100381784 zma:542146" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100274281+zma:100381784+zma:542146">
+        <graphics name="cl9052_1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="271" width="46" height="17"/>
+    </entry>
+    <entry id="16" name="zma:100304231" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100304231">
+        <graphics name="100304231" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="291" width="46" height="17"/>
+    </entry>
+    <entry id="17" name="zma:100193568 zma:100272538 zma:100280773 zma:100282045 zma:100282140 zma:100282336 zma:100284147 zma:100284316 zma:100284787 zma:100285502 zma:100285722" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100193568+zma:100272538+zma:100280773+zma:100282045+zma:100282140+zma:100282336+zma:100284147+zma:100284316+zma:100284787+zma:100285502+zma:100285722">
+        <graphics name="IDP147..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="763" y="142" width="46" height="17"/>
+    </entry>
+    <entry id="18" name="zma:100273115" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100273115">
+        <graphics name="IDP2400" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="763" y="159" width="46" height="17"/>
+    </entry>
+    <entry id="19" name="ko:K11094" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K11094">
+        <graphics name="K11094" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="763" y="176" width="46" height="17"/>
+    </entry>
+    <entry id="20" name="zma:100217051 zma:100272589 zma:100273898 zma:100383468" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100217051+zma:100272589+zma:100273898+zma:100383468">
+        <graphics name="100217051..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="763" y="192" width="46" height="17"/>
+    </entry>
+    <entry id="21" name="zma:100192006 zma:100272396 zma:100272422 zma:100277544 zma:100281205 zma:100282173 zma:100285762 zma:100382393 zma:100501457" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100192006+zma:100272396+zma:100272422+zma:100277544+zma:100281205+zma:100282173+zma:100285762+zma:100382393+zma:100501457">
+        <graphics name="pco143623b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="763" y="209" width="46" height="17"/>
+    </entry>
+    <entry id="22" name="zma:100191858 zma:100192903 zma:100272749 zma:100282114 zma:100284238 zma:100286059" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100191858+zma:100192903+zma:100272749+zma:100282114+zma:100284238+zma:100286059">
+        <graphics name="100191858..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="763" y="251" width="46" height="17"/>
+    </entry>
+    <entry id="23" name="ko:K12838" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12838">
+        <graphics name="K12838" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="763" y="271" width="46" height="17"/>
+    </entry>
+    <entry id="24" name="ko:K12839" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12839">
+        <graphics name="K12839" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="763" y="291" width="46" height="17"/>
+    </entry>
+    <entry id="25" name="zma:100282621 zma:100283416" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100282621+zma:100283416">
+        <graphics name="100282621..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="763" y="311" width="46" height="17"/>
+    </entry>
+    <entry id="26" name="ko:K12841" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12841">
+        <graphics name="K12841" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="763" y="331" width="46" height="17"/>
+    </entry>
+    <entry id="27" name="ko:K12842" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12842">
+        <graphics name="K12842" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="763" y="351" width="46" height="17"/>
+    </entry>
+    <entry id="28" name="zma:100282531" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100282531">
+        <graphics name="100282531" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="763" y="371" width="46" height="17"/>
+    </entry>
+    <entry id="29" name="zma:100280855 zma:100283725" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100280855+zma:100283725">
+        <graphics name="pco131956..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="893" y="470" width="46" height="17"/>
+    </entry>
+    <entry id="30" name="zma:100193339 zma:100193713 zma:100382538" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100193339+zma:100193713+zma:100382538">
+        <graphics name="cl3001_1a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="893" y="490" width="46" height="17"/>
+    </entry>
+    <entry id="31" name="zma:100191156 zma:100194283 zma:100217203 zma:100272438 zma:100273521 zma:100282036 zma:100282309 zma:100284054 zma:100383636" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100191156+zma:100194283+zma:100217203+zma:100272438+zma:100273521+zma:100282036+zma:100282309+zma:100284054+zma:100383636">
+        <graphics name="TIDP3541..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="893" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="32" name="zma:100191855 zma:100284255" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100191855+zma:100284255">
+        <graphics name="pco093291..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="470" width="46" height="17"/>
+    </entry>
+    <entry id="33" name="zma:541962" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:541962">
+        <graphics name="myb2, CDC5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="487" width="46" height="17"/>
+    </entry>
+    <entry id="34" name="zma:100284614" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100284614">
+        <graphics name="100284614" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="504" width="46" height="17"/>
+    </entry>
+    <entry id="35" name="zma:100282926" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100282926">
+        <graphics name="AY106137" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="521" width="46" height="17"/>
+    </entry>
+    <entry id="36" name="zma:100192769 zma:100282711" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100192769+zma:100282711">
+        <graphics name="IDP144..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="538" width="46" height="17"/>
+    </entry>
+    <entry id="37" name="zma:100281557" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100281557">
+        <graphics name="100281557" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="555" width="46" height="17"/>
+    </entry>
+    <entry id="38" name="zma:100281806 zma:100501536" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100281806+zma:100501536">
+        <graphics name="pco083553..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="572" width="46" height="17"/>
+    </entry>
+    <entry id="39" name="zma:100280668" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100280668">
+        <graphics name="100280668" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="596" width="46" height="17"/>
+    </entry>
+    <entry id="40" name="zma:100217127 zma:100274600 zma:100384244" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100217127+zma:100274600+zma:100384244">
+        <graphics name="100217127..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="763" y="490" width="46" height="17"/>
+    </entry>
+    <entry id="41" name="ko:K12866" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12866">
+        <graphics name="K12866" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="698" y="613" width="46" height="17"/>
+    </entry>
+    <entry id="42" name="zma:100286002" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100286002">
+        <graphics name="100286002" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="763" y="470" width="46" height="17"/>
+    </entry>
+    <entry id="43" name="zma:100282530" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100282530">
+        <graphics name="pco121903b" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="763" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="44" name="ko:K12733" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12733">
+        <graphics name="K12733" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="763" y="530" width="46" height="17"/>
+    </entry>
+    <entry id="45" name="ko:K09564" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K09564">
+        <graphics name="K09564" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="763" y="550" width="46" height="17"/>
+    </entry>
+    <entry id="46" name="zma:100273359" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100273359">
+        <graphics name="100273359" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="763" y="570" width="46" height="17"/>
+    </entry>
+    <entry id="47" name="zma:100285059" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100285059">
+        <graphics name="TIDP3207" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="763" y="590" width="46" height="17"/>
+    </entry>
+    <entry id="48" name="ko:K12874" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12874">
+        <graphics name="K12874" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="763" y="630" width="46" height="17"/>
+    </entry>
+    <entry id="49" name="zma:100192719 zma:100194361 zma:100283319 zma:100284021 zma:100285873 zma:100285982 zma:100286339 zma:100384520" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100192719+zma:100194361+zma:100283319+zma:100284021+zma:100285873+zma:100285982+zma:100286339+zma:100384520">
+        <graphics name="100192719..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="159" width="46" height="17"/>
+    </entry>
+    <entry id="50" name="zma:100193568 zma:100272538 zma:100280773 zma:100282045 zma:100282140 zma:100282336 zma:100284147 zma:100284316 zma:100284787 zma:100285502 zma:100285722" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100193568+zma:100272538+zma:100280773+zma:100282045+zma:100282140+zma:100282336+zma:100284147+zma:100284316+zma:100284787+zma:100285502+zma:100285722">
+        <graphics name="IDP147..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="176" width="46" height="17"/>
+    </entry>
+    <entry id="51" name="zma:100194058" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100194058">
+        <graphics name="100194058" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="243" width="46" height="17"/>
+    </entry>
+    <entry id="52" name="zma:100282830" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100282830">
+        <graphics name="100282830" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="227" width="46" height="17"/>
+    </entry>
+    <entry id="53" name="zma:100279862" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100279862">
+        <graphics name="100279862" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="210" width="46" height="17"/>
+    </entry>
+    <entry id="54" name="zma:100279564" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100279564">
+        <graphics name="100279564" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="193" width="46" height="17"/>
+    </entry>
+    <entry id="55" name="zma:100282785 zma:100286043 zma:100303837" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100282785+zma:100286043+zma:100303837">
+        <graphics name="100282785..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="260" width="46" height="17"/>
+    </entry>
+    <entry id="56" name="zma:100193568 zma:100272538 zma:100280773 zma:100282045 zma:100282140 zma:100282336 zma:100284147 zma:100284316 zma:100284787 zma:100285502 zma:100285722" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100193568+zma:100272538+zma:100280773+zma:100282045+zma:100282140+zma:100282336+zma:100284147+zma:100284316+zma:100284787+zma:100285502+zma:100285722">
+        <graphics name="IDP147..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="893" y="142" width="46" height="17"/>
+    </entry>
+    <entry id="57" name="ko:K12852 ko:K12853" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12852+K12853">
+        <graphics name="K12852..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="893" y="159" width="46" height="17"/>
+    </entry>
+    <entry id="58" name="ko:K12854" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12854">
+        <graphics name="K12854" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="893" y="176" width="46" height="17"/>
+    </entry>
+    <entry id="59" name="ko:K12855" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12855">
+        <graphics name="K12855" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="893" y="193" width="46" height="17"/>
+    </entry>
+    <entry id="60" name="ko:K12856" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12856">
+        <graphics name="K12856" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="893" y="210" width="46" height="17"/>
+    </entry>
+    <entry id="61" name="zma:100193655" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100193655">
+        <graphics name="pco139470" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="893" y="227" width="46" height="17"/>
+    </entry>
+    <entry id="62" name="zma:100281521 zma:100286176" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100281521+zma:100286176">
+        <graphics name="100281521..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="893" y="244" width="46" height="17"/>
+    </entry>
+    <entry id="63" name="zma:100282486" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100282486">
+        <graphics name="pco104916" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="893" y="261" width="46" height="17"/>
+    </entry>
+    <entry id="64" name="zma:100283326" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100283326">
+        <graphics name="100283326" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="319" width="46" height="17"/>
+    </entry>
+    <entry id="65" name="zma:100285671" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100285671">
+        <graphics name="pco134259" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="336" width="46" height="17"/>
+    </entry>
+    <entry id="66" name="zma:100502327" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100502327">
+        <graphics name="100502327" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="353" width="46" height="17"/>
+    </entry>
+    <entry id="67" name="ko:K12875" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12875">
+        <graphics name="K12875" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="828" y="470" width="46" height="17"/>
+    </entry>
+    <entry id="68" name="zma:732749" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:732749">
+        <graphics name="RH2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="487" width="46" height="17"/>
+    </entry>
+    <entry id="69" name="zma:100280761 zma:100283893 zma:100283928 zma:100284191" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100280761+zma:100283893+zma:100283928+zma:100284191">
+        <graphics name="100280761..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="504" width="46" height="17"/>
+    </entry>
+    <entry id="70" name="zma:100279432 zma:100280575" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100279432+zma:100280575">
+        <graphics name="100279432..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="521" width="46" height="17"/>
+    </entry>
+    <entry id="71" name="zma:100273717 zma:100283032 zma:100384654" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100273717+zma:100283032+zma:100384654">
+        <graphics name="gpm624..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="538" width="46" height="17"/>
+    </entry>
+    <entry id="72" name="zma:100193488 zma:100272607 zma:100272743 zma:100279524 zma:100280157 zma:100304252" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100193488+zma:100272607+zma:100272743+zma:100279524+zma:100280157+zma:100304252">
+        <graphics name="cl8663_2a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="555" width="46" height="17"/>
+    </entry>
+    <entry id="73" name="ko:K12818" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12818">
+        <graphics name="K12818" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="598" y="387" width="46" height="17"/>
+    </entry>
+    <entry id="74" name="ko:K12819" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12819">
+        <graphics name="K12819" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="598" y="407" width="46" height="17"/>
+    </entry>
+    <entry id="75" name="ko:K12848" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12848">
+        <graphics name="K12848" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="828" y="379" width="46" height="17"/>
+    </entry>
+    <entry id="76" name="zma:100284891 zma:100383017" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100284891+zma:100383017">
+        <graphics name="si606059b05..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="828" y="399" width="46" height="17"/>
+    </entry>
+    <entry id="77" name="zma:100216989 zma:100282048" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100216989+zma:100282048">
+        <graphics name="100216989..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="549" y="427" width="46" height="17"/>
+    </entry>
+    <entry id="78" name="zma:100191203 zma:100282560" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zma:100191203+zma:100282560">
+        <graphics name="pco137008b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="763" y="610" width="46" height="17"/>
+    </entry>
+    <entry id="79" name="ko:K14276" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14276">
+        <graphics name="K14276" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="698" y="119" width="46" height="17"/>
+    </entry>
+    <entry id="80" name="ko:K14277" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14277">
+        <graphics name="K14277" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="763" y="119" width="46" height="17"/>
+    </entry>
+    <entry id="81" name="ko:K14279" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14279">
+        <graphics name="K14279" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="893" y="119" width="46" height="17"/>
+    </entry>
+    <entry id="82" name="ko:K14278" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14278">
+        <graphics name="K14278" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="828" y="119" width="46" height="17"/>
+    </entry>
+    <entry id="83" name="ko:K14280" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14280">
+        <graphics name="K14280" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="828" y="136" width="46" height="17"/>
+    </entry>
+</pathway>

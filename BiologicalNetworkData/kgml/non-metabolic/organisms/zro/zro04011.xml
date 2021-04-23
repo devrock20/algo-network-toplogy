@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "http://www.genome.jp/kegg/xml/KGML_v0.7.1_.dtd">
+<!-- Creation date: Mar 31, 2009 10:44:27 +0900 (JST) -->
+<pathway name="path:zro04011" org="zro" number="04011"
+         title="MAPK signaling pathway - yeast"
+         image="http://www.genome.jp/kegg/pathway/zro/zro04011.png"
+         link="http://www.genome.jp/kegg-bin/show_pathway?zro04011">
+    <entry id="1" name="zro:ZYRO0G12914g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0G12914g">
+        <graphics name="ZYRO0G12914g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="759" y="455" width="46" height="17"/>
+    </entry>
+    <entry id="2" name="ko:K11215" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K11215">
+        <graphics name="K11215" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="702" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="3" name="ko:K11241 ko:K11242" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K11241+K11242">
+        <graphics name="K11241..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="702" y="436" width="46" height="17"/>
+    </entry>
+    <entry id="5" name="zro:ZYRO0F11418g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0F11418g">
+        <graphics name="ZYRO0F11418g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="539" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="6" name="zro:ZYRO0B07854g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0B07854g">
+        <graphics name="ZYRO0B07854g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="466" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="7" name="zro:ZYRO0B01166g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0B01166g">
+        <graphics name="ZYRO0B01166g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="391" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="8" name="zro:ZYRO0A09306g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0A09306g">
+        <graphics name="ZYRO0A09306g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="316" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="10" name="zro:ZYRO0B04004g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0B04004g">
+        <graphics name="ZYRO0B04004g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="164" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="12" name="zro:ZYRO0G06600g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0G06600g">
+        <graphics name="ZYRO0G06600g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="613" y="302" width="46" height="17"/>
+    </entry>
+    <entry id="13" name="zro:ZYRO0G16082g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0G16082g">
+        <graphics name="ZYRO0G16082g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="613" y="282" width="46" height="17"/>
+    </entry>
+    <entry id="16" name="ko:K11245" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K11245">
+        <graphics name="K11245" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="164" y="282" width="46" height="17"/>
+    </entry>
+    <entry id="17" name="zro:ZYRO0C05170g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0C05170g">
+        <graphics name="ZYRO0C05170g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="164" y="253" width="46" height="17"/>
+    </entry>
+    <entry id="18" name="ko:K11243" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K11243">
+        <graphics name="K11243" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="816" y="168" width="46" height="17"/>
+    </entry>
+    <entry id="19" name="ko:K11241 ko:K11242" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K11241+K11242">
+        <graphics name="K11241..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="702" y="125" width="46" height="17"/>
+    </entry>
+    <entry id="20" name="zro:ZYRO0F16676g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0F16676g">
+        <graphics name="ZYRO0F16676g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="391" y="214" width="46" height="17"/>
+    </entry>
+    <entry id="21" name="ko:K11235" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K11235">
+        <graphics name="K11235" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="90" y="183" width="46" height="17"/>
+    </entry>
+    <entry id="22" name="zro:ZYRO0F03300g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0F03300g">
+        <graphics name="ZYRO0F03300g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="164" y="153" width="46" height="17"/>
+    </entry>
+    <entry id="23" name="zro:ZYRO0G18810g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0G18810g">
+        <graphics name="ZYRO0G18810g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="164" y="183" width="46" height="17"/>
+    </entry>
+    <entry id="24" name="ko:K11234" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K11234">
+        <graphics name="K11234" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="90" y="153" width="46" height="17"/>
+    </entry>
+    <entry id="26" name="zro:ZYRO0F06314g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0F06314g">
+        <graphics name="ZYRO0F06314g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="239" y="197" width="46" height="17"/>
+    </entry>
+    <entry id="27" name="zro:ZYRO0G17292g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0G17292g">
+        <graphics name="ZYRO0G17292g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="239" y="214" width="46" height="17"/>
+    </entry>
+    <entry id="28" name="zro:ZYRO0D04004g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0D04004g">
+        <graphics name="ZYRO0D04004g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="367" y="143" width="46" height="17"/>
+    </entry>
+    <entry id="29" name="zro:ZYRO0B01166g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0B01166g">
+        <graphics name="ZYRO0B01166g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="391" y="168" width="46" height="17"/>
+    </entry>
+    <entry id="30" name="zro:ZYRO0D04950g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0D04950g">
+        <graphics name="ZYRO0D04950g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="316" y="205" width="46" height="17"/>
+    </entry>
+    <entry id="31" name="zro:ZYRO0A09306g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0A09306g">
+        <graphics name="ZYRO0A09306g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="316" y="168" width="46" height="17"/>
+    </entry>
+    <entry id="32" name="ko:K11239" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K11239">
+        <graphics name="K11239" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="501" y="143" width="46" height="17"/>
+    </entry>
+    <entry id="33" name="zro:ZYRO0B07854g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0B07854g">
+        <graphics name="ZYRO0B07854g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="466" y="168" width="46" height="17"/>
+    </entry>
+    <entry id="34" name="zro:ZYRO0F11418g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0F11418g">
+        <graphics name="ZYRO0F11418g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="539" y="168" width="46" height="17"/>
+    </entry>
+    <entry id="36" name="zro:ZYRO0A01760g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0A01760g">
+        <graphics name="ZYRO0A01760g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="613" y="222" width="46" height="17"/>
+    </entry>
+    <entry id="37" name="ko:K11215" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K11215">
+        <graphics name="K11215" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="702" y="168" width="46" height="17"/>
+    </entry>
+    <entry id="38" name="ko:K06652" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K06652">
+        <graphics name="K06652" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="702" y="205" width="46" height="17"/>
+    </entry>
+    <entry id="40" name="zro:ZYRO0F13310g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0F13310g">
+        <graphics name="ZYRO0F13310g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="391" y="282" width="46" height="17"/>
+    </entry>
+    <entry id="41" name="zro:ZYRO0G15290g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0G15290g">
+        <graphics name="ZYRO0G15290g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="466" y="282" width="46" height="17"/>
+    </entry>
+    <entry id="42" name="zro:ZYRO0F06798g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0F06798g">
+        <graphics name="ZYRO0F06798g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="539" y="282" width="46" height="17"/>
+    </entry>
+    <entry id="45" name="zro:ZYRO0B07854g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0B07854g">
+        <graphics name="ZYRO0B07854g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="466" y="352" width="46" height="17"/>
+    </entry>
+    <entry id="46" name="zro:ZYRO0B03740g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0B03740g">
+        <graphics name="ZYRO0B03740g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="702" y="311" width="46" height="17"/>
+    </entry>
+    <entry id="47" name="zro:ZYRO0G06644g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0G06644g">
+        <graphics name="ZYRO0G06644g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="164" y="394" width="46" height="17"/>
+    </entry>
+    <entry id="48" name="zro:ZYRO0A11154g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0A11154g">
+        <graphics name="ZYRO0A11154g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="391" y="394" width="46" height="17"/>
+    </entry>
+    <entry id="49" name="zro:ZYRO0D08184g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0D08184g">
+        <graphics name="ZYRO0D08184g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="466" y="394" width="46" height="17"/>
+    </entry>
+    <entry id="50" name="zro:ZYRO0D03344g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0D03344g">
+        <graphics name="ZYRO0D03344g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="539" y="394" width="46" height="17"/>
+    </entry>
+    <entry id="51" name="zro:ZYRO0D06182g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0D06182g">
+        <graphics name="ZYRO0D06182g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="613" y="394" width="46" height="17"/>
+    </entry>
+    <entry id="53" name="ko:K09468" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K09468">
+        <graphics name="K09468" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="702" y="394" width="46" height="17"/>
+    </entry>
+    <entry id="54" name="zro:ZYRO0D09064g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0D09064g">
+        <graphics name="ZYRO0D09064g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="816" y="383" width="46" height="17"/>
+    </entry>
+    <entry id="55" name="path:zro04011" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro04011">
+        <graphics name="TITLE:MAPK signaling pathway - yeast" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="155" y="58" width="230" height="25"/>
+    </entry>
+    <entry id="56" name="zro:ZYRO0B04004g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0B04004g">
+        <graphics name="ZYRO0B04004g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="164" y="352" width="46" height="17"/>
+    </entry>
+    <entry id="57" name="zro:ZYRO0B01166g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0B01166g">
+        <graphics name="ZYRO0B01166g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="391" y="352" width="46" height="17"/>
+    </entry>
+    <entry id="58" name="zro:ZYRO0F15114g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?zro:ZYRO0F15114g">
+        <graphics name="ZYRO0F15114g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="278" y="394" width="46" height="17"/>
+    </entry>
+    <entry id="59" name="path:map04110" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map04110">
+        <graphics name="Cell cycle" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="799" y="205" width="69" height="25"/>
+    </entry>
+    <entry id="60" name="undefined" type="group">
+        <graphics fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="239" y="205" width="46" height="34"/>
+        <component id="26"/>
+        <component id="27"/>
+    </entry>
+    <relation entry1="60" entry2="31" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="30" entry2="31" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="31" entry2="29" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="31" entry2="20" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="28" entry2="31" type="PPrel">
+        <subtype name="binding/association" value="---"/>
+    </relation>
+    <relation entry1="28" entry2="29" type="PPrel">
+        <subtype name="binding/association" value="---"/>
+    </relation>
+    <relation entry1="29" entry2="33" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="33" entry2="34" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="40" entry2="41" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="41" entry2="42" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="42" entry2="13" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="13" entry2="46" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="56" entry2="57" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="57" entry2="45" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="47" entry2="58" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="10" entry2="8" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="8" entry2="7" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="7" entry2="6" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="6" entry2="5" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="45" entry2="50" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="50" entry2="51" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="49" entry2="50" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="58" entry2="48" type="PPrel">
+        <subtype name="inhibition" value="--|"/>
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="48" entry2="49" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+</pathway>

@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "http://www.genome.jp/kegg/xml/KGML_v0.7.1_.dtd">
+<!-- Creation date: Feb 18, 2011 16:43:57 +0900 (GMT+09:00) -->
+<pathway name="path:yli03022" org="yli" number="03022"
+         title="Basal transcription factors"
+         image="http://www.genome.jp/kegg/pathway/yli/yli03022.png"
+         link="http://www.genome.jp/kegg-bin/show_pathway?yli03022">
+    <entry id="1" name="path:yli03022" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli03022">
+        <graphics name="TITLE:Basal transcription factors" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="221" y="58" width="361" height="25"/>
+    </entry>
+    <entry id="2" name="yli:YALI0B23056g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0B23056g">
+        <graphics name="YALI0B23056g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="67" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="3" name="yli:YALI0F32153g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0F32153g">
+        <graphics name="YALI0F32153g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="113" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="4" name="yli:YALI0C13904g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0C13904g">
+        <graphics name="YALI0C13904g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="159" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="5" name="ko:K03129" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K03129">
+        <graphics name="K03129" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="205" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="6" name="yli:YALI0B14245g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0B14245g">
+        <graphics name="YALI0B14245g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="251" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="7" name="yli:YALI0C05346g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0C05346g">
+        <graphics name="YALI0C05346g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="297" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="8" name="yli:YALI0B00968g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0B00968g">
+        <graphics name="YALI0B00968g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="343" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="9" name="yli:YALI0B22946g yli:YALI0E23133g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0B22946g+yli:YALI0E23133g">
+        <graphics name="YALI0B22946g..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="389" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="10" name="yli:YALI0E18051g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0E18051g">
+        <graphics name="YALI0E18051g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="435" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="11" name="yli:YALI0E17809g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0E17809g">
+        <graphics name="YALI0E17809g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="481" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="12" name="ko:K03126" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K03126">
+        <graphics name="K03126" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="527" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="13" name="yli:YALI0D09625g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0D09625g">
+        <graphics name="YALI0D09625g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="573" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="14" name="yli:YALI0C02563g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0C02563g">
+        <graphics name="YALI0C02563g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="67" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="15" name="yli:YALI0C10472g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0C10472g">
+        <graphics name="YALI0C10472g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="113" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="16" name="yli:YALI0F22136g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0F22136g">
+        <graphics name="YALI0F22136g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="159" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="17" name="ko:K03121" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K03121">
+        <graphics name="K03121" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="205" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="18" name="yli:YALI0F12815g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0F12815g">
+        <graphics name="YALI0F12815g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="67" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="19" name="yli:YALI0F15785g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0F15785g">
+        <graphics name="YALI0F15785g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="113" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="20" name="yli:YALI0B18062g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0B18062g">
+        <graphics name="YALI0B18062g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="159" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="21" name="yli:YALI0F26367g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0F26367g">
+        <graphics name="YALI0F26367g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="205" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="22" name="yli:YALI0F14355g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0F14355g">
+        <graphics name="YALI0F14355g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="251" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="23" name="yli:YALI0B12452g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0B12452g">
+        <graphics name="YALI0B12452g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="297" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="24" name="yli:YALI0D26862g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0D26862g">
+        <graphics name="YALI0D26862g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="343" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="25" name="yli:YALI0C04367g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0C04367g">
+        <graphics name="YALI0C04367g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="389" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="26" name="yli:YALI0F30173g" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?yli:YALI0F30173g">
+        <graphics name="YALI0F30173g" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="435" y="339" width="46" height="17"/>
+    </entry>
+</pathway>

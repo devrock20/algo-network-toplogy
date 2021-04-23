@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "http://www.genome.jp/kegg/xml/KGML_v0.7.1_.dtd">
+<!-- Creation date: Oct 4, 2010 17:30:53 +0900 (JST) -->
+<pathway name="path:xla04020" org="xla" number="04020"
+         title="Calcium signaling pathway"
+         image="http://www.genome.jp/kegg/pathway/xla/xla04020.png"
+         link="http://www.genome.jp/kegg-bin/show_pathway?xla04020">
+    <entry id="1" name="path:map04730" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map04730">
+        <graphics name="Long-term depression" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="1012" y="472" width="141" height="25"/>
+    </entry>
+    <entry id="2" name="path:map04720" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map04720">
+        <graphics name="Long-term potentiation" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="1012" y="439" width="141" height="25"/>
+    </entry>
+    <entry id="3" name="path:xla04070" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla04070">
+        <graphics name="Phosphatidylinositol signaling system" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="1012" y="601" width="127" height="34"/>
+    </entry>
+    <entry id="4" name="path:xla04210" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla04210">
+        <graphics name="Apoptosis" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="1011" y="362" width="78" height="25"/>
+    </entry>
+    <entry id="5" name="path:xla04010" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla04010">
+        <graphics name="MAPK signaling pathway" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="1012" y="324" width="111" height="34"/>
+    </entry>
+    <entry id="6" name="xla:494865" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:494865">
+        <graphics name="itpkc, MGC132275" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="873" y="603" width="46" height="17"/>
+    </entry>
+    <entry id="7" name="ko:K08041 ko:K08043 ko:K08048" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K08041+K08043+K08048">
+        <graphics name="K08041..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="873" y="508" width="46" height="17"/>
+    </entry>
+    <entry id="8" name="xla:495332" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:495332">
+        <graphics name="pde1b" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="873" y="533" width="46" height="17"/>
+    </entry>
+    <entry id="9" name="xla:373705" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:373705">
+        <graphics name="nos1, ihps1, nnos, nos, nos1-A" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="873" y="470" width="46" height="17"/>
+    </entry>
+    <entry id="10" name="xla:380376 xla:443782 xla:734449" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:380376+xla:443782+xla:734449">
+        <graphics name="vdac1, MGC53435..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="871" y="141" width="46" height="17"/>
+    </entry>
+    <entry id="11" name="xla:447715" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:447715">
+        <graphics name="ppid, MGC81732" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="916" y="151" width="46" height="17"/>
+    </entry>
+    <entry id="12" name="cpd:C01330" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C01330">
+        <graphics name="C01330" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="961" y="109" width="8" height="8"/>
+    </entry>
+    <entry id="13" name="cpd:C00076" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00076">
+        <graphics name="C00076" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="693" y="397" width="8" height="8"/>
+    </entry>
+    <entry id="14" name="cpd:C13050" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C13050">
+        <graphics name="C13050" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="493" y="597" width="8" height="8"/>
+    </entry>
+    <entry id="15" name="cpd:C13051" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C13051">
+        <graphics name="C13051" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="493" y="634" width="8" height="8"/>
+    </entry>
+    <entry id="16" name="cpd:C06124" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C06124">
+        <graphics name="C06124" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="454" y="685" width="8" height="8"/>
+    </entry>
+    <entry id="17" name="cpd:C00004" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00004">
+        <graphics name="C00004" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="254" y="663" width="8" height="8"/>
+    </entry>
+    <entry id="18" name="cpd:C00002" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00002">
+        <graphics name="C00002" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="254" y="594" width="8" height="8"/>
+    </entry>
+    <entry id="19" name="cpd:C00165" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00165">
+        <graphics name="C00165" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="454" y="562" width="8" height="8"/>
+    </entry>
+    <entry id="20" name="xla:446366" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:446366">
+        <graphics name="slc8a3, MGC83127, slc8a2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="182" y="117" width="46" height="17"/>
+    </entry>
+    <entry id="21" name="cpd:C01245" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C01245">
+        <graphics name="C01245" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="454" y="507" width="8" height="8"/>
+    </entry>
+    <entry id="22" name="cpd:C00575" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00575">
+        <graphics name="C00575" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="276" y="544" width="8" height="8"/>
+    </entry>
+    <entry id="23" name="cpd:C00575" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00575">
+        <graphics name="C00575" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="432" y="202" width="8" height="8"/>
+    </entry>
+    <entry id="24" name="xla:446366" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:446366">
+        <graphics name="slc8a3, MGC83127, slc8a2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="916" y="114" width="46" height="17"/>
+    </entry>
+    <entry id="25" name="xla:373837 xla:380508 xla:397789 xla:399160 xla:399284" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:373837+xla:380508+xla:397789+xla:399160+xla:399284">
+        <graphics name="camk4, camk4-A..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="873" y="410" width="46" height="17"/>
+    </entry>
+    <entry id="26" name="xla:380507 xla:399215 xla:414686 xla:432106 xla:443801 xla:444804 xla:447196" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:380507+xla:399215+xla:414686+xla:432106+xla:443801+xla:444804+xla:447196">
+        <graphics name="ppp3ca, MGC52521..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="873" y="385" width="46" height="17"/>
+    </entry>
+    <entry id="27" name="xla:447031" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:447031">
+        <graphics name="prkca, MGC82897, pkc-alpha, pkcalpha" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="873" y="632" width="46" height="17"/>
+    </entry>
+    <entry id="28" name="ko:K05871" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K05871">
+        <graphics name="K05871" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="873" y="573" width="46" height="17"/>
+    </entry>
+    <entry id="30" name="xla:100036901" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:100036901">
+        <graphics name="cd38" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="182" y="634" width="46" height="17"/>
+    </entry>
+    <entry id="32" name="ko:K05860" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K05860">
+        <graphics name="K05860" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="354" y="544" width="46" height="17"/>
+    </entry>
+    <entry id="33" name="ko:K06856" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
+        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="182" y="552" width="46" height="17"/>
+    </entry>
+    <entry id="34" name="xla:380245 xla:724070 xla:724075" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:380245+xla:724070+xla:724075">
+        <graphics name="pdgfra, MGC52594..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="182" y="486" width="46" height="17"/>
+    </entry>
+    <entry id="35" name="xla:100036983 xla:380535 xla:394425 xla:399096 xla:399261 xla:734922 xla:779103" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:100036983+xla:380535+xla:394425+xla:399096+xla:399261+xla:734922+xla:779103">
+        <graphics name="gna15..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="268" y="441" width="46" height="17"/>
+    </entry>
+    <entry id="36" name="xla:100127346 xla:397953 xla:398206 xla:398286" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:100127346+xla:397953+xla:398206+xla:398286">
+        <graphics name="grin2a, nr2a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="182" y="392" width="46" height="17"/>
+    </entry>
+    <entry id="37" name="xla:398359 xla:398360" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:398359+xla:398360">
+        <graphics name="plcg1, nckap3, plc-ii, plc1, plc148, plcgamma1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="354" y="520" width="46" height="17"/>
+    </entry>
+    <entry id="39" name="xla:495437" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:495437">
+        <graphics name="sphk1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="354" y="686" width="46" height="17"/>
+    </entry>
+    <entry id="40" name="ko:K05861" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K05861">
+        <graphics name="K05861" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="354" y="568" width="46" height="17"/>
+    </entry>
+    <entry id="41" name="xla:443731" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:443731">
+        <graphics name="443731" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="182" y="531" width="46" height="17"/>
+    </entry>
+    <entry id="42" name="ko:K00907" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K00907">
+        <graphics name="K00907" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="873" y="267" width="46" height="17"/>
+    </entry>
+    <entry id="43" name="xla:735225" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:735225">
+        <graphics name="plcd4, MGC131193" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="354" y="473" width="46" height="17"/>
+    </entry>
+    <entry id="44" name="xla:399254" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:399254">
+        <graphics name="itpr1, ip3r, xip3r" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="601" y="508" width="46" height="17"/>
+    </entry>
+    <entry id="45" name="xla:373780 xla:496328" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:373780+xla:496328">
+        <graphics name="phkg1, psph-A..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="873" y="292" width="46" height="17"/>
+    </entry>
+    <entry id="46" name="ko:K04961 ko:K04962 ko:K04963 ko:K05327" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K04961+K04962+K04963+K05327">
+        <graphics name="K04961..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="601" y="317" width="46" height="17"/>
+    </entry>
+    <entry id="47" name="xla:397692" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:397692">
+        <graphics name="plcb3, plc1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="354" y="496" width="46" height="17"/>
+    </entry>
+    <entry id="48" name="xla:399136" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:399136">
+        <graphics name="trpc1, xtrpc1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="182" y="250" width="46" height="17"/>
+    </entry>
+    <entry id="50" name="ko:K04850 ko:K04851 ko:K04853 ko:K04857" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K04850+K04851+K04853+K04857">
+        <graphics name="K04850..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="182" y="301" width="46" height="17"/>
+    </entry>
+    <entry id="51" name="ko:K04344 ko:K04849 ko:K04852" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K04344+K04849+K04852">
+        <graphics name="K04344..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="182" y="320" width="46" height="17"/>
+    </entry>
+    <entry id="52" name="xla:100036912 xla:100049776 xla:100137627 xla:373631 xla:373632 xla:378523 xla:378526 xla:378563 xla:379327 xla:379394 xla:380342 xla:398699 xla:398763 xla:446859" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:100036912+xla:100049776+xla:100137627+xla:373631+xla:373632+xla:378523+xla:378526+xla:378563+xla:379327+xla:379394+xla:380342+xla:398699+xla:398763+xla:446859">
+        <graphics name="ednra-b, ednrab, eta, etar, etra..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="182" y="441" width="46" height="17"/>
+    </entry>
+    <entry id="53" name="xla:380558" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:380558">
+        <graphics name="calm2, MGC64460, calm1, camii, phkd, phkd2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="786" y="398" width="46" height="17"/>
+    </entry>
+    <entry id="54" name="xla:379085 xla:379095 xla:379410 xla:399104" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:379085+xla:379095+xla:379410+xla:399104">
+        <graphics name="tnnc2, MGC52923..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="873" y="229" width="46" height="17"/>
+    </entry>
+    <entry id="55" name="xla:100126647 xla:380187 xla:432212" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:100126647+xla:380187+xla:432212">
+        <graphics name="100126647..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="916" y="134" width="46" height="17"/>
+    </entry>
+    <entry id="57" name="xla:378610" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:378610">
+        <graphics name="adcy9, xlAC" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="354" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="58" name="xla:380096 xla:446229 xla:495046 xla:495440" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:380096+xla:446229+xla:495046+xla:495440">
+        <graphics name="atp2a2, MGC52615, atp2b, ca-p60a, dar, serca2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="601" y="250" width="46" height="17"/>
+    </entry>
+    <entry id="59" name="xla:378527 xla:398915 xla:399337 xla:444218 xla:495175" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:378527+xla:398915+xla:399337+xla:444218+xla:495175">
+        <graphics name="htr7, 5HT7, htr7-A..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="182" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="60" name="ko:K05852" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K05852">
+        <graphics name="K05852" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="601" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="61" name="xla:100101276 xla:380388 xla:446502" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:100101276+xla:380388+xla:446502">
+        <graphics name="prkaca..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="498" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="62" name="xla:378630 xla:394414 xla:399059" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:378630+xla:394414+xla:399059">
+        <graphics name="gnal, Galpha(olf), g(alpha)sx2, g(olf), gnal-A..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="268" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="63" name="ko:K04854 ko:K04855 ko:K04856" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K04854+K04855+K04856">
+        <graphics name="K04854..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="182" y="339" width="46" height="17"/>
+    </entry>
+    <entry id="64" name="cpd:C01330" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C01330">
+        <graphics name="C01330" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="129" y="121" width="8" height="8"/>
+    </entry>
+    <entry id="65" name="xla:446855" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla:446855">
+        <graphics name="atp2b4, MGC80772, atp2b2, atp2b3, mxra1, pmca4, pmca4b, pmca4x" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="182" y="158" width="46" height="17"/>
+    </entry>
+    <entry id="66" name="path:xla04020" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?xla04020">
+        <graphics name="TITLE:Calcium signaling pathway" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="165" y="58" width="250" height="25"/>
+    </entry>
+    <entry id="67" name="undefined" type="group">
+        <graphics fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="893" y="142" width="91" height="34"/>
+        <component id="10"/>
+        <component id="11"/>
+        <component id="55"/>
+    </entry>
+    <relation entry1="59" entry2="62" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="62" entry2="57" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="34" entry2="37" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="45" entry2="53" type="PPrel">
+        <subtype name="binding/association" value="---"/>
+    </relation>
+    <relation entry1="26" entry2="53" type="PPrel">
+        <subtype name="binding/association" value="---"/>
+    </relation>
+    <relation entry1="57" entry2="61" type="PPrel">
+        <subtype name="compound" value="23"/>
+    </relation>
+    <relation entry1="43" entry2="44" type="PPrel">
+        <subtype name="compound" value="21"/>
+    </relation>
+    <relation entry1="47" entry2="44" type="PPrel">
+        <subtype name="compound" value="21"/>
+    </relation>
+    <relation entry1="37" entry2="44" type="PPrel">
+        <subtype name="compound" value="21"/>
+    </relation>
+    <relation entry1="43" entry2="27" type="PPrel">
+        <subtype name="compound" value="19"/>
+    </relation>
+    <relation entry1="47" entry2="27" type="PPrel">
+        <subtype name="compound" value="19"/>
+    </relation>
+    <relation entry1="37" entry2="27" type="PPrel">
+        <subtype name="compound" value="19"/>
+    </relation>
+    <relation entry1="20" entry2="64" type="PCrel">
+    </relation>
+    <relation entry1="30" entry2="18" type="PCrel">
+    </relation>
+    <relation entry1="30" entry2="17" type="PCrel">
+    </relation>
+    <relation entry1="20" entry2="13" type="PCrel">
+    </relation>
+    <relation entry1="58" entry2="13" type="PCrel">
+    </relation>
+    <relation entry1="67" entry2="13" type="PCrel">
+    </relation>
+    <relation entry1="30" entry2="15" type="PCrel">
+    </relation>
+    <relation entry1="65" entry2="13" type="PCrel">
+    </relation>
+    <relation entry1="52" entry2="35" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="35" entry2="47" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="44" entry2="13" type="PCrel">
+    </relation>
+    <relation entry1="54" entry2="13" type="PCrel">
+    </relation>
+    <relation entry1="53" entry2="13" type="PCrel">
+    </relation>
+    <relation entry1="27" entry2="13" type="PCrel">
+    </relation>
+    <relation entry1="6" entry2="13" type="PCrel">
+    </relation>
+    <relation entry1="53" entry2="8" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="53" entry2="9" type="PPrel">
+        <subtype name="binding/association" value="---"/>
+    </relation>
+    <relation entry1="25" entry2="53" type="PPrel">
+        <subtype name="binding/association" value="---"/>
+    </relation>
+    <relation entry1="24" entry2="12" type="PCrel">
+    </relation>
+    <relation entry1="24" entry2="13" type="PCrel">
+    </relation>
+    <relation entry1="41" entry2="37" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="48" entry2="13" type="PCrel">
+    </relation>
+    <relation entry1="36" entry2="13" type="PCrel">
+    </relation>
+    <relation entry1="13" entry2="43" type="PCrel">
+    </relation>
+</pathway>
