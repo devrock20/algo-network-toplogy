@@ -1,12 +1,19 @@
+from __future__ import division
 import numpy as np 
 import random
+import queue
+import math
+import json
+from string import Template
+import  os
 
 
 class Graph():
-    def __init__(self,grp_file):
+    def __init__(self,root_dir,grp_file):
         self.nodes = []
         self.edges = []
-        with open(grp_file) as file:
+        relative_path = os.path.join(root_dir,grp_file)
+        with open(relative_path) as file:
             for s in file.readlines():
                 if ')' in s and 'edge' not in s:
                     self.nodes.append(int(s.split(')')[0]))
@@ -16,61 +23,162 @@ class Graph():
                     pass
         self.no_nodes = len(self.nodes)
         self.no_edges = len(self.edges)
-        self.weight_matrix = np.zeros((self.no_nodes+1,self.no_nodes+1))
         self.adjancey_matrix = np.zeros((self.no_nodes+1,self.no_nodes+1))
         self.populate_matrix()
-        self.compute_node_deg()
-        self.compute_strength_distibution()
-        self.compute_avg_weight()
-
+        
     def populate_matrix(self):
         for edge in self.edges:
             i = int(edge.split('-')[0])
             j = int(edge.split('-')[1])
-            self.adjancey_matrix[i][j] = 1
-            self.weight_matrix[i][j] = random.randint(0,10)
+            self.adjancey_matrix[i][j] = random.randint(1,10)
+        #print(self.adjancey_matrix)
         
     def compute_node_deg(self):
         node_dict = {}
+        node_sum =  0
         for i in range(self.no_nodes+1):
             node_deg = 0
             for j in range(self.no_nodes+1):
                 node_deg += self.adjancey_matrix[i][j]
-            node_dict["Node : {0}".format(i)]  = "Degree : {0}".format(node_deg)
-        print(node_dict)
+            node_dict[i]  = node_deg
+            node_sum  +=  node_deg
+        avg_nodes = node_sum/self.no_nodes
+        return node_dict,avg_nodes
+        
 
     def compute_strength_distibution(self):
         strength_dict = {}
+        strength_sum =  0
         for i in range(self.no_nodes+1):
             strength = 0
             for j in range(self.no_nodes+1):
-                strength += self.adjancey_matrix[i][j] * self.weight_matrix[i][j]
-            strength_dict["Node : {0}".format(i)]  = "Strength : {0}".format(strength)
-        print(strength_dict)
-
+                strength += self.adjancey_matrix[i][j]
+            strength_dict[i]  = strength
+            strength_sum += strength
+        avg_strength = strength_sum/self.no_nodes
+        return strength_dict,avg_strength
 
     def compute_avg_weight(self):
         total_weight = 0
-        avg_weight =  {}
         for i in range(self.no_nodes+1):
             for j in range(self.no_nodes+1):
-                total_weight += self.weight_matrix[i][j]
+                total_weight += self.adjancey_matrix[i][j]
+        node_weight = 0
         for i  in range(self.no_nodes+1):
-            node_weight = 0
             for j in range(self.no_nodes+1):
-                node_weight += self.weight_matrix[i][j]
-            avg_weight[i]=node_weight/total_weight
-        print(avg_weight)
+                node_weight += self.adjancey_matrix[i][j]
+        avg_weight = node_weight/self.no_edges
+        #print(avg_weight)
+        return avg_weight
         
 
-    def compute_dis_nodes(self):
-        pass
+    def compute_distance_between_nodes(self,beg_node):
+        unvistied  = queue.Queue()
+        unvistied.put(self.nodes[0])
+        vistied = []
+        shortest_lenght_arr = np.zeros((self.no_nodes+1,self.no_nodes+1))
+        each_node_arr = np.full(self.no_nodes+1,np.inf)
+        each_node_arr[1] = 0
+        itr_no = 1
+        while len(vistied) != len(self.nodes):
+            node = unvistied.get()
+            neighbhors = []
+            for j in range(self.no_nodes+1):
+                if self.adjancey_matrix[node][j]  > 0:
+                    neighbhors.append(j)
+            for each in neighbhors:
+                dist = each_node_arr[node]  + self.adjancey_matrix[node][each]
+                if dist  < each_node_arr[each]:
+                    each_node_arr[each] = dist
+            vistied.append(node)
+            next_node = self.find_min(each_node_arr,vistied)
+            unvistied.put(next_node)
+        each_node_arr  = np.where(each_node_arr==np.inf,0,each_node_arr)
+        return each_node_arr
+            
 
-    def compute_betweeness_centrality(self):
-        pass
+    def find_min(self,array,vistied_nodes):
+        array_dict = {}
+        for value in np.unique(array):
+            array_dict[value]  = np.where(array==value)[0].tolist()
+        sorted_array = np.sort(np.delete(array,vistied_nodes))
+        min_index =   sorted_array.min()
+        for item in array_dict[min_index]:
+            if item not in vistied_nodes:
+                next_node = item
+        return next_node
 
-    def check_small_scale_property(self):
-        pass
+    def charestric_path_length(self):
+        try:
+            sum_of_distnaces = 0
+            for i in self.nodes:
+                sum_of_distnaces  += np.sum(self.compute_distance_between_nodes(i))
+            char_path_length = sum_of_distnaces/(self.no_nodes * (self.no_nodes-1))
+            return char_path_length
+        except Exception as e:
+            print("Skipping this metric")
 
+
+    def clustering_coeffiecnt(self,node_dgerees):
+        try:
+            cc = 0
+            for node,node_deg in node_dgerees.items():
+                if node == 0:
+                    continue
+                k  = node_deg
+                neighbors_edges  = 0
+                neighbhors = []
+                for j in range(self.no_nodes+1):
+                    if self.adjancey_matrix[node][j]  == 1:
+                        neighbhors.append(j)
+                for q in range(len(neighbhors)):
+                    for p in range(len(neighbhors)):
+                        if self.adjancey_matrix[neighbhors[q]][neighbhors[p]] == 1:
+                            neighbors_edges  += 1
+                    p = 0
+                if neighbors_edges == 0:
+                    cc += 0
+                else:
+                    cc += (2 * neighbors_edges)/(k * (k-1))
+                cc_n = cc/self.no_edges
+            return cc_n
+        except Exception as e:
+            print("Skiping this metric")
+            return 0
+
+
+    def check_small_scale_property(self,avg_nodes,char_length,cc_coeff):
+        try:
+
+            if math.isclose(math.log(avg_nodes),0) or math.isclose(math.log(self.no_nodes),0):
+                return False
+            else:
+                char_r  = math.log(self.no_nodes)//math.log(avg_nodes)
+                cc_r = avg_nodes/self.no_edges
+                p = cc_coeff / cc_r
+                q = char_length / char_r
+            if (p > 1) and (math.isclose(q, 1)):
+                return True
+            else:
+                return False
+        except  Exception as e:
+            print("Skipping this metric")
+            return 0
+
+    def write_characteristics(self,charc_dict,template_file,graph_name):
+        charc_dict['graph_name'] = graph_name
+        with  open(template_file,'r') as f:
+            t= Template(json.dumps(json.load(f)))
+            data = t.safe_substitute(charc_dict)
+        return data
+        
+
+
+        
+        
+            
+
+
+    
 if __name__ == "__main__":
-    g = Graph('Data/Bacillus_subtilis_168/-beta--D-glucuronide_degradation.grp')
+    g = Graph(root_dir= "Data/Bacillus_subtilis_168", grp_file=  "(deoxy)ribose_phosphate_degradation.grp")
