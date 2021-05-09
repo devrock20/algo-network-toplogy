@@ -3,7 +3,7 @@
     "Node Average of Graph":"$avg_nodes",
     "Strength Average of Graph":"$avg_strength",
     "Average weight of  Graph":"$avg_weight",
-    "Charateristic Path Length of  Graph":"$char_length",
-    "Clustering Coeffienct of Graph":"$cc_coeff",
-    "Small Scale Property":"$condition"
+    "Characteristic Path Length of  Graph":"$char_length",
+    "Clustering Coefficient of Graph":"$cc_coeff",
+    "Closeness_Centrality":"$condition"
 }

@@ -36,10 +36,13 @@ class Graph():
     def compute_node_deg(self):
         node_dict = {}
         node_sum =  0
+        if self.no_nodes == 0:
+            return None,None
         for i in range(self.no_nodes+1):
             node_deg = 0
             for j in range(self.no_nodes+1):
-                node_deg += self.adjancey_matrix[i][j]
+                if self.adjancey_matrix[i][j] > 0:
+                    node_deg += 1
             node_dict[i]  = node_deg
             node_sum  +=  node_deg
         avg_nodes = node_sum/self.no_nodes
@@ -68,18 +71,15 @@ class Graph():
             for j in range(self.no_nodes+1):
                 node_weight += self.adjancey_matrix[i][j]
         avg_weight = node_weight/self.no_edges
-        #print(avg_weight)
         return avg_weight
         
 
     def compute_distance_between_nodes(self,beg_node):
         unvistied  = queue.Queue()
-        unvistied.put(self.nodes[0])
+        unvistied.put(beg_node)
         vistied = []
-        shortest_lenght_arr = np.zeros((self.no_nodes+1,self.no_nodes+1))
         each_node_arr = np.full(self.no_nodes+1,np.inf)
-        each_node_arr[1] = 0
-        itr_no = 1
+        each_node_arr[beg_node] = 0
         while len(vistied) != len(self.nodes):
             node = unvistied.get()
             neighbhors = []
@@ -129,41 +129,31 @@ class Graph():
                 neighbors_edges  = 0
                 neighbhors = []
                 for j in range(self.no_nodes+1):
-                    if self.adjancey_matrix[node][j]  == 1:
+                    if self.adjancey_matrix[node][j]  > 0:
                         neighbhors.append(j)
                 for q in range(len(neighbhors)):
                     for p in range(len(neighbhors)):
-                        if self.adjancey_matrix[neighbhors[q]][neighbhors[p]] == 1:
+                        if self.adjancey_matrix[neighbhors[q]][neighbhors[p]] > 0:
                             neighbors_edges  += 1
                     p = 0
                 if neighbors_edges == 0:
                     cc += 0
                 else:
                     cc += (2 * neighbors_edges)/(k * (k-1))
-                cc_n = cc/self.no_edges
+            cc_n = cc/self.no_nodes
             return cc_n
         except Exception as e:
             print("Skiping this metric")
             return 0
 
+    def closness_centrality(self):
+        closse_ness  = []
+        for i in self.nodes:
+            closeness = (self.no_nodes -1 )/np.sum(self.compute_distance_between_nodes(i))
+            closse_ness.append(closeness)
+        return closse_ness
 
-    def check_small_scale_property(self,avg_nodes,char_length,cc_coeff):
-        try:
-
-            if math.isclose(math.log(avg_nodes),0) or math.isclose(math.log(self.no_nodes),0):
-                return False
-            else:
-                char_r  = math.log(self.no_nodes)//math.log(avg_nodes)
-                cc_r = avg_nodes/self.no_edges
-                p = cc_coeff / cc_r
-                q = char_length / char_r
-            if (p > 1) and (math.isclose(q, 1)):
-                return True
-            else:
-                return False
-        except  Exception as e:
-            print("Skipping this metric")
-            return 0
+    
 
     def write_characteristics(self,charc_dict,template_file,graph_name):
         charc_dict['graph_name'] = graph_name

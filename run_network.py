@@ -26,11 +26,12 @@ if __name__== "__main__":
             "avg_weight" : g.compute_avg_weight(),
             "char_length" : char_length,
             "cc_coeff" : cc_coeff,
-            "condition" : g.check_small_scale_property(avg_nodes,char_length,cc_coeff)
+            "condition" : g.closness_centrality()
         }
         template_file = "output_template.json"
         data = g.write_characteristics(charc_dict,template_file,files)
         all_charc.append(data)
+        #print(json.dumps(all_charc))
     with open("output.json",'w') as f:
         json.dump(all_charc,f,indent=2)
     
